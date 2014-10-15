@@ -505,6 +505,24 @@
         <li>Integrate with social networks like Google+, Twitter, Facebook</li>
     </div>
 
+    <div class="step" data-x="-3000">
+        <p>After a while you will need to analyze the work you have done.</p><br>
+        <p>Let's go through the tools that you can use to do some analysis.</p>
+    </div>
+
+    <div class="step" style="width: 900px !important;" data-x="-3500" data-y="-500">
+        <p>First of all you have your Apache logs <i>(or whatever server you choose)</i></p>
+    </div>
+
+    <div id="consoleImg" class="step" style="width: 900px !important;" data-x="-3900" data-y="-100" data-rotate-x="-30" data-rotate-y="-20">
+        <img src="images/bots_logs.png"/>
+    </div>
+
+    <div class="step" style="width: 1200px !important;" data-x="-4200" data-y="500" data-rotate-x="-60" data-rotate-y="-50">
+        <p>You may wonder if your site has been indexed.</p><br>
+        <span>This is easy to check with <b>site:</b> operator.</span>
+    </div>
+
     <!--<div id="its-in-3d" class="step" data-x="2800" data-y="7200" data-z="4000" data-rotate-x="-30" data-rotate-y="-30" data-scale="2">
         <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
         <span class="footnote">* beat that, prezi ;)</span>
@@ -596,6 +614,14 @@ function onPlayerReady(event) {
         if (actualkey=="z") {
             var third = document.getElementById("profit");
             third.className = third.className + " Three-Dee";
+        }
+        if (actualkey=="h") {
+            var console = document.getElementById("consoleImg");
+            console.style.opacity = 0.1;
+        }
+        if (actualkey=="s") {
+            var console = document.getElementById("consoleImg");
+            console.style.opacity = 1;
         }
     }
     document.onkeypress=textsizer

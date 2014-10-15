@@ -215,6 +215,10 @@ a:focus {
     text-shadow:0px 0px 0 rgb(62,58,62),1px 1px 0 rgb(38,34,38),2px 2px 0 rgb(14,10,14),3px 3px 0 rgb(-11,-15,-11),4px 4px 0 rgb(-35,-39,-35),5px 5px 0 rgb(-59,-63,-59),6px 6px 0 rgb(-83,-87,-83), 7px 7px 0 rgb(-107,-111,-107),8px 8px 7px rgba(0,0,0,0.4),8px 8px 1px rgba(0,0,0,0.5),0px 0px 7px rgba(0,0,0,.2);
 }
 
+.hideMe {
+    opacity: 0.1;
+}
+
 /*
     These 'slide' step styles were heavily inspired by HTML5 Slides:
     http://html5slides.googlecode.com/svn/trunk/styles.css
