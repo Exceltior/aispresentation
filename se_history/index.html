@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Demo - How to create a parallax scrolling website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <style type="text/css">
+			.loading::-webkit-scrollbar { 
+			    display: none; 
+			}
+			.back-link a {
+				color: #4ca340;
+				text-decoration: none; 
+				border-bottom: 1px #4ca340 solid;
+			}
+			.back-link a:hover,
+			.back-link a:focus {
+				color: #408536; 
+				text-decoration: none;
+				border-bottom: 1px #408536 solid;
+			}
+			h1 {
+				height: 100%;
+				/* The html and body elements cannot have any padding or margin. */
+				margin: 0;
+				font-size: 14px;
+				font-family: 'Open Sans', sans-serif;
+				color: #1c1d1e;
+				font-size: 32px;
+				margin-bottom: 3px;
+			}
+			h2 {
+				color: #1c1d1e;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: normal;
+			}
+			.entry-header .inner {
+				text-align: left;
+				margin: 0 auto 20px auto;
+				width: 800px;
+			}
+			.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+		</style>
+    </head>
+    <body class="loading">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+       	       	
+       	<main>
+       	 
+	        <section id="slide-1" class="homeSlide">
+	        	<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1"></div>
+		    </section>
+		    
+		    <section id="slide-2">
+		    	<div class="bcg" data-0="background-color:rgb(50,90,160);" data-top="background-color:rgb(15,55,130);"  data-anchor-target="#slide-2">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">The first tool used for searching on the Internet was <b>Archie</b>.</h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">The name stands for "archive" without the "v". It was created in 1990. The program downloaded the directory listings of all the files located on public anonymous FTP (File Transfer Protocol) sites, creating a searchable database of file names.</p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+<section id="slide-3" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-3">
+    	
+    	
+    </div>
+</section>
+		    
+<section id="slide-screenshot" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-screenshot">    	    	
+    </div>
+</section>
+		<section id="slide-4" class="homeSlide homeSlideTall">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-4">
+				<div class="curtainContainer">
+		
+					<div class="curtain" data-bottom-top="opacity: 0" data-106-top="height: 1%; opacity: 0; top: -10%;" data-center="height: 100%; opacity: 0.5; top: 0%;" data-anchor-target="#slide-4"></div>
+					<div class="copy" data-bottom-top="opacity: 0" data--100-bottom="opacity: 0" data--280-bottom="opacity: 1;" data-280-top="opacity: 0.7;" data-106-top="opacity: 0;" data-anchor-target="#slide-4 .copy">
+						<h2><b>JumpStation</b></h2> 
+					<p>the first WWW resource-discovery tool to combine the three essential features of a web search engine</p>						
+					<br>
+					<p><i>(crawling, indexing, and searching)</i><p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		    
+<section id="slide-5">
+		    	<div class="bcg" data-0="background-color:rgb(15,55,130);" data-top="background-color:rgb(80,90,100);" data-anchor-target="#slide-5">
+			    	<div class="hsContainer">
+			    		<div class="hsContent">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-5 h2"><i>1994</i>: WebCrawler</h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-5 h2">One of the first "all text" crawler-based search engines that allowed users to search for any word in any webpage, which has become the standard for all major search engines since.</p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+
+<section id="slide-6" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-6">
+    </div>
+</section>
+
+<section id="slide-7">
+		    	<div class="bcg" data-0="background-color:rgb(210,200,220);" data-top="background-color:rgb(150,140,160);"  data-anchor-target="#slide-7">
+			    	<div class="hsContainer">
+			    		<div class="hsContent2">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-7 h2">Soon after, many search engines appeared and vied for popularity.</h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-7 h2">These included Magellan, Excite, Infoseek, Inktomi, Northern Light, and AltaVista.</p>
+	<br><p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-7 h2"><b>Yahoo!</b> was among the most popular ways for people to find web pages of interest.</p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+
+<section id="slide-8" class="homeSlide homeSlideTall">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-8">
+				<div class="curtainContainer">
+		
+					<div class="curtain" data-bottom-top="opacity: 0" data-106-top="height: 1%; opacity: 0; top: -10%;" data-center="height: 100%; opacity: 0.5; top: 0%;" data-anchor-target="#slide-8"></div>
+					<div class="copy" data-bottom-top="opacity: 0" data--100-bottom="opacity: 1" data--280-bottom="opacity: 0.2;" data-280-top="opacity: 0.7;" data-106-top="opacity: 1;" data-anchor-target="#slide-8 .copy">
+						<h2><i>Year 1996</i>: Netscape is looking to give a single search engine an exclusive deal</h2>
+						<p>Chosen search engine would be featured on Netscape's web browser.</p><br>
+						<p>There was so much interest that instead Netscape struck deals with five of the major search engines: for $5 million a year, each search engine would be in rotation on the Netscape search engine page.</p><br>
+						<p>The five engines were Yahoo!, Magellan, Lycos, Infoseek, and Excite.</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+<section id="slide-9" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-9">
+    	
+    	
+    </div>
+</section>
+
+<section id="slide-10" class="homeSlide homeSlideTall">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-bottom-top="background-position: 50% 100px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-10">
+				<div class="curtainContainer">
+		
+					<div class="curtain" data-bottom-top="opacity: 0" data-106-top="height: 1%; opacity: 0; top: -10%;" data-center="height: 100%; opacity: 0.5; top: 0%;" data-anchor-target="#slide-8"></div>
+					<div class="copy" data-bottom-top="opacity: 0" data--100-bottom="opacity: 0" data--280-bottom="opacity: 1;" data-280-top="opacity: 1;" data-106-top="opacity: 0;" data-anchor-target="#slide-10 .copy">
+						<h2>(Back)Links analysis</h2>
+						<p>is a subset of network analysis, exploring associations between objects.</p>
+						<p>The idea of formulating a link analysis problem as an eigenvalue problem was probably first suggested in 1976 by Gabriel Pinski and Francis Narin, who worked on scientometrics ranking scientific journals.</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+<section id="slide-11" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-11">
+    	
+    	
+    </div>
+</section>
+
+<section id="slide-12">
+		    	<div class="bcg" data-0="background-color:rgb(210,200,220);" data-top="background-color:rgb(150,140,160);" data-anchor-target="#slide-12">
+			    	<div class="hsContainer">
+			    		<div class="hsContent2">
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-12 h2">PageRank</h2>				    		
+				<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-12 h2">Information on the web could be ordered in a hierarchy by "link popularity": a page is ranked higher as there are more links to it.</p>			
+				<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-12 h2">Google adopted the idea of selling search terms</h2>	
+				<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-12 h2">This move had a significant effect on the SE business.</p>
+			    		</div>
+		        	</div>
+		    	</div>
+		    </section>
+
+<section id="slide-pageRank" class="homeSlide">
+	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);" data-anchor-target="#slide-11">
+    	
+    	
+    </div>
+</section>
+
+		    <section id="slide-13" class="homeSlide homeSlideTall2">
+		    	<div class="bcg">
+			    	&nbsp;
+		    	</div>
+		    	<div class="bcg bcg2" data-bottom-top="opacity: 0;" data--33p-top="opacity: 0;" data--66p-top="opacity: 1;" data-anchor-target="#slide-13">
+			    	<div class="hsContainer">
+			    	</div>
+		    	</div>
+		    	<div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-13">
+			    	<div class="hsContainer">
+				    	<div class="hsContent" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-13">
+				    		<h2 style="color: grey; impoartant;">Let's go back to nowadays</h2>
+			    		</div>
+			    	</div>
+		    	</div>
+		    </section>
+		    
+		</main>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/imagesloaded.js"></script>
+        <script src="js/skrollr.js"></script>
+        <script src="js/_main.js"></script>
+
+    </body>
+</html>
